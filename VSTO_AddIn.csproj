@@ -194,8 +194,8 @@
     can be found.
   -->
   <ItemGroup>
-    <Compile Include="AppointmentWrapper.cs" />
-    <Compile Include="MailItemWrapper.cs" />
+    <Compile Include="ItemEvents10Ex.cs" />
+    <Compile Include="ItemEventWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -221,7 +221,6 @@
     <Compile Include="ThisAddIn.cs">
       <SubType>Code</SubType>
     </Compile>
-    <None Include="VSTO_AddIn_TemporaryKey.pfx" />
     <None Include="ThisAddIn.Designer.xml">
       <DependentUpon>ThisAddIn.cs</DependentUpon>
     </None>
@@ -229,6 +228,7 @@
       <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
     </Compile>
     <AppDesigner Include="Properties\" />
+    <None Include="VSTO_AddIn_TemporaryKey.pfx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -241,7 +241,7 @@
     <ManifestKeyFile>VSTO_AddIn_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>D0655141218743564EB72F94A92292B723E50755</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>FBE31FD98E89AB750641F7671B4AF17CB51F9C35</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

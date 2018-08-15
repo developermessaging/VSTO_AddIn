@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Text;
-
 using Outlook = Microsoft.Office.Interop.Outlook;
 using Office = Microsoft.Office.Core;
 
@@ -8,7 +7,6 @@ namespace VSTO_AddIn
 {
 	public partial class ThisAddIn
 	{
-        public int replyAllAttempt = 0;
 		private void ThisAddIn_Startup(object sender, System.EventArgs e)
 		{
 			Application.ItemLoad += new Outlook.ApplicationEvents_11_ItemLoadEventHandler(ItemLoad);
@@ -16,11 +14,7 @@ namespace VSTO_AddIn
 
 		private void ItemLoad(object item)
 		{
-			Outlook.MailItem mailItem = item as Outlook.MailItem;
-			if (mailItem != null)
-			{
-				new MailItemEventWrapper(mailItem);
-			}
+            new ItemEventWrapper(item);
 		}
 
 		private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
