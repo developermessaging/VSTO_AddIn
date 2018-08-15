@@ -13,3 +13,4 @@ C:\Users\catagh\Source\Repos\VSTO_AddIn\bin\Debug\Microsoft.VisualStudio.Tools.A
 C:\Users\catagh\Source\Repos\VSTO_AddIn\obj\Debug\VSTO_AddIn.csproj.CopyComplete
 C:\Users\catagh\Source\Repos\VSTO_AddIn\obj\Debug\VSTO_AddIn.dll
 C:\Users\catagh\Source\Repos\VSTO_AddIn\obj\Debug\VSTO_AddIn.pdb
+C:\Users\catagh\Source\Repos\VSTO_AddIn\obj\Debug\VSTO_AddIn.csprojAssemblyReference.cache
