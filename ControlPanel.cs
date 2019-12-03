@@ -22,7 +22,7 @@ namespace VSTO_AddIn
             }
         }
 
-        private static bool itemLoggingEnabled = false;
+        private static bool itemLoggingEnabled = true;
 
         internal static bool FoldersLoggingEnabled
         {
@@ -32,7 +32,7 @@ namespace VSTO_AddIn
             }
         }
 
-        private static bool foldersLoggingEnabled = false;
+        private static bool foldersLoggingEnabled = true;
 
         internal static bool FolderLoggingEnabled
         {
@@ -42,7 +42,7 @@ namespace VSTO_AddIn
             }
         }
 
-        private static bool folderLoggingEnabled = false;
+        private static bool folderLoggingEnabled = true;
 
         internal static bool ApplicationLoggingEnabled
         {
